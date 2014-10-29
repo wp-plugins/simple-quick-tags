@@ -1,6 +1,6 @@
-﻿=== Simple Quick Tags ===
+=== Simple Quick Tags ===
 
-Contributors: Shawn Hayes, Share Web Design
+Contributors: sharewebdesign, Shawn Hayes
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EZFS2B64JEU7Q
 Tags: quicktags, text editor, html
 Requires at least: 3.3
@@ -16,6 +16,8 @@ Simple Quick Tags allows you to add useful quicktag buttons to the Text (HTML) m
 This plugin allows you to add useful quicktag buttons to the Text (HTML) mode of the WordPress WYSIWYG editor. There is a settings page to choose from a list of quicktags you would like to use.
 
 Currently on the list of options are: p, br, h1, h2, h3, h4, h5, h6, pb
+
+This plugin was written by Shawn Hayes at [Share Web Design](http://sharewebdesign.com/) to make it easier to implement useful quicktag buttons. If you have any questions please feel free to visit our contact page at [Contact Us](http://sharewebdesign.com/contact-us) or post a question in the support area at [WordPress.org](https://wordpress.org/support/plugin/simple-quick-tags).
 
 == Installation ==
 
@@ -39,3 +41,7 @@ We don't have any FAQs yet but please feel free to contact us with any questions
 
 = 1.0 =
 Public Release
+
+== Upgrade Notice ==
+
+This is the 1st Public Release and the current stable version.
