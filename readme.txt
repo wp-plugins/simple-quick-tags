@@ -4,8 +4,8 @@ Contributors: sharewebdesign, Shawn Hayes
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EZFS2B64JEU7Q
 Tags: quicktags, text editor, html
 Requires at least: 3.3
-Tested up to: 4.0
-Stable tag: 1.0
+Tested up to: 4.2.2
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,9 +39,12 @@ We don't have any FAQs yet but please feel free to contact us with any questions
 
 == Changelog ==
 
+= 1.1 =
+Added $table_name = $wpdb->base_prefix . 'options'; and now using $table_name rather than just using wp_options.
+
 = 1.0 =
 Public Release
 
 == Upgrade Notice ==
 
-This is the 1st Public Release and the current stable version.
+This fixes the issue with the plugin not working on WordPress installations that use a custom database prefix (e.g. NOT wp_). 
