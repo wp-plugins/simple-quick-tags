@@ -103,15 +103,17 @@ function simple_quick_tags_activate() {
 // Get DB Info and set it to a variable	
 	global $wpdb;
 
-$simple_quicktags_p_value = $wpdb->get_var("SELECT option_value FROM wp_options WHERE option_name = 'simple-quicktags-p'");
-$simple_quicktags_br_value = $wpdb->get_var("SELECT option_value FROM wp_options WHERE option_name = 'simple-quicktags-br'");
-$simple_quicktags_h1_value = $wpdb->get_var("SELECT option_value FROM wp_options WHERE option_name = 'simple-quicktags-h1'");
-$simple_quicktags_h2_value = $wpdb->get_var("SELECT option_value FROM wp_options WHERE option_name = 'simple-quicktags-h2'");
-$simple_quicktags_h3_value = $wpdb->get_var("SELECT option_value FROM wp_options WHERE option_name = 'simple-quicktags-h3'");
-$simple_quicktags_h4_value = $wpdb->get_var("SELECT option_value FROM wp_options WHERE option_name = 'simple-quicktags-h4'");
-$simple_quicktags_h5_value = $wpdb->get_var("SELECT option_value FROM wp_options WHERE option_name = 'simple-quicktags-h5'");
-$simple_quicktags_h6_value = $wpdb->get_var("SELECT option_value FROM wp_options WHERE option_name = 'simple-quicktags-h6'");
-$simple_quicktags_pb_value = $wpdb->get_var("SELECT option_value FROM wp_options WHERE option_name = 'simple-quicktags-pb'");
+$table_name = $wpdb->base_prefix . 'options';
+
+$simple_quicktags_p_value = $wpdb->get_var("SELECT option_value FROM $table_name WHERE option_name = 'simple-quicktags-p'");
+$simple_quicktags_br_value = $wpdb->get_var("SELECT option_value FROM $table_name WHERE option_name = 'simple-quicktags-br'");
+$simple_quicktags_h1_value = $wpdb->get_var("SELECT option_value FROM $table_name WHERE option_name = 'simple-quicktags-h1'");
+$simple_quicktags_h2_value = $wpdb->get_var("SELECT option_value FROM $table_name WHERE option_name = 'simple-quicktags-h2'");
+$simple_quicktags_h3_value = $wpdb->get_var("SELECT option_value FROM $table_name WHERE option_name = 'simple-quicktags-h3'");
+$simple_quicktags_h4_value = $wpdb->get_var("SELECT option_value FROM $table_name WHERE option_name = 'simple-quicktags-h4'");
+$simple_quicktags_h5_value = $wpdb->get_var("SELECT option_value FROM $table_name WHERE option_name = 'simple-quicktags-h5'");
+$simple_quicktags_h6_value = $wpdb->get_var("SELECT option_value FROM $table_name WHERE option_name = 'simple-quicktags-h6'");
+$simple_quicktags_pb_value = $wpdb->get_var("SELECT option_value FROM $table_name WHERE option_name = 'simple-quicktags-pb'");
 
     if (wp_script_is('quicktags')){
 ?>
