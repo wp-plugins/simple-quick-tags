@@ -4,7 +4,7 @@ Plugin Name: Simple Quick Tags
 Plugin URI: http://sharewebdesign.com/wordpress-plugins/simple-quick-tags
 Description: Adds quicktags to WordPress text area.
 Author: Shawn Hayes, Share Web Design
-Version: 1.0
+Version: 1.1
 Author URI: http://sharewebdesign.com
 License: GPLv2 or later
 */
